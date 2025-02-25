@@ -248,10 +248,8 @@ border: 4px;
  width: 24px;
 height: 24px;
  background-color: #e7e9fc;
- margin-right: 24px;
- margin-left: auto;
+margin-left: auto;
  margin-bottom: 24px;
- margin-top: 24px;
  display: flex;
  align-items: center;
 justify-content: center;
@@ -271,6 +269,7 @@ fill: #fff;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 16px;
        
 }
 .icon-close {
@@ -289,15 +288,19 @@ border-radius: 100%;
 .privacy {
 font-weight: 400;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.16;
 letter-spacing: 0.04em;
 color: #8e8f99;
 }
-input:checked+label>span {
-line-height: 1.33333;
+span {
+line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.04em;
 }
 .form-modal {
 display: flex;
