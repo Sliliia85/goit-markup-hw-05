@@ -79,11 +79,19 @@
                         </svg>
                    </div>
                 </div>
-                <label class="label-form" for="user-comment">Comment</label>
-                <textarea class="comment-form" id="user-comment" name="Comment" placeholder="Text input"></textarea>
-                <label class="privacy" for="checkbox-label">
-                <input type="checkbox" id="checkbox-label" value="" name="privacy" required> I accept the terms and conditions of the<span>Privacy Policy</span>
-            </label>
+                
+                    <label class="label-form" for="user-comment">Comment</label>
+                    <textarea class="comment-form" id="user-comment" name="Comment" placeholder="Text input"></textarea>
+                    <div class="privacy-div">
+                        <input class="modal-checkbox visually-hidden" type="checkbox" id="checkbox-label" value="true" name="user-privacy"
+                            required />
+                    <label class="privacy" for="checkbox-label">
+                    <span class="modal-span"><svg class="icon-form-accept" width="10" height="8">
+                        <use href="./images/icons.svg#icon-Vectorgalochka"></use>
+                    </svg></span>I accept the terms and conditions of the 
+                    <a href="#" class="modal-link">Privacy Policy</a>
+                </label>
+                </div>
                 <button class="button-modal" type="submit">Send</button>
         </form>
         </div>
