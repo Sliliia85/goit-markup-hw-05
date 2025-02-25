@@ -308,7 +308,7 @@ gap: 8px;
     flex-direction: column;
     border-radius: 4px;
         width: 100%;
-        }
+}
 .label-form {
 flex-direction: column;
     display: flex;
@@ -324,7 +324,8 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
     height: 40px;
-    outline: none;   
+    outline: none; 
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 .form-input:focus {
     border: 1px solid #4D5AE5;
@@ -368,7 +369,18 @@ border: 1px solid rgba(46, 47, 66, 0.4);
         transform: translateY(-50%);
         cursor: pointer;
 }
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /*#region buy us*/
 
 .strategy {
