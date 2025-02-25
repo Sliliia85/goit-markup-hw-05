@@ -736,14 +736,15 @@ margin-left: 120px;
         padding-left: 16px;
         padding-top: 8px;
         padding-bottom: 8px;
+        background-color: transparent;
+        font-size: 12px;
+            line-height: 2;
+            letter-spacing: 0.04em;
+            font-weight: 400;
+            color: #ffffff;
 }
 .input::placeholder {
-font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #fff;
-   
+    color: #ffffff;
 }
 .button-subscribe {
     font-weight: 500;
@@ -751,9 +752,18 @@ font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.04em;
         text-align: center;
-        color: #fff;
+        color: #ffffff;
         background-color: #4d5ae5;
         border: none;
+        border-radius: 4px;
+        min-width: 165px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Roboto, sans-serif;
+        cursor: pointer;
+
 }
 .form-footer {
     display: flex;
@@ -765,19 +775,11 @@ font-weight: 400;
 }
 .frame {
     fill: #FFFFFF;
+    height: 24px;
+    width: 24px;
+    margin-left: 16px;
 }
-.form-footer-div {
-display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 16px;
-    border-radius: 4px;
-        padding: 8px 24px;
-        width: 165px;
-        height: 40px;
-       background-color: #4d5ae5;
-}
+
 
 
 /*#endregion footer*/
