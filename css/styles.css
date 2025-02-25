@@ -242,7 +242,7 @@ pointer-events: auto; */
        max-height: 80%;
        overflow-y: auto;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
-        padding: 72 px 24 px  24 px 24 px;
+        padding: 24px;
 }
 .icon-close-div {
 border: 4px;
@@ -296,12 +296,12 @@ line-height: 1.33333;
 .form-modal {
 display: flex;
 gap: 8px;
-padding: 16px 24px;
+
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     border-radius: 4px;
-        max-width: 408px;
+        width: 100%;
 }
 .label-form {
 flex-direction: column;
@@ -318,10 +318,19 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
     height: 40px;
+   
     
 }
 .form-input:placeholder-shown {
     border-color: blue;
+}
+.form-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+
 }
 .comment-form {
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -330,14 +339,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
         height: 120px;
         resize: none;
 }
-.form-input::placeholder {
-    font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16;
-        letter-spacing: 0.04em;
-        color: rgba(46, 47, 66, 0.4);
 
-}
 .button-modal {
     border-radius: 4px;
         padding: 16px 32px;
@@ -353,7 +355,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
             color: #fff;
             align-items: center;
 }
-.man {
+.icon-form {
     /* position: absolute; */
 }
 .man:hover,
