@@ -696,8 +696,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     stroke: rgba(0, 0, 0, 0.1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-close:hover,
-.icon-close:focus {
+button:hover > svg,
+button:focus > svg {
     fill: #ffffff;
 }
 .form-field {
