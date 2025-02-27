@@ -217,8 +217,7 @@ img {
 
 /*#endregion solution*/
 
-
-/*#region buy us*/
+/*#region stratrgy*/
 
 .strategy {
     padding: 120px 0;
@@ -276,7 +275,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-/*#endregion by us*/
+/*#endregion strategy*/
 
 /*#region team*/
 
@@ -802,7 +801,7 @@ input:checked + label > span {
 
 .comment-form {
     resize: none;
-    width: 100%;
+    width: 360px;
     height: 120px;
     font-weight: 400;
         font-size: 12px;
